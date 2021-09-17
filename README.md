@@ -5,16 +5,16 @@ Me chamo Matheus, sou Designer Gráfico, Trabalho com social media preparando ar
 
 ### Bora conversar um pouco?
 <p align="left">
-  <a href="#" alt="Gmail">
+  <a href="https://mail.google.com/mail/u/matheus2ep@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=https://mail.google.com/mail/u/matheus2ep@gmail.com" /></a>
 
-  <a href="#" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/matheus-alves-dev/?lipi=urn%3Ali%3Apage%3Ad_flagship3_my_premium%3Bg3vju6WuSpu9dEJuEDnMug%3D%3D" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-alves-dev/?lipi=urn%3Ali%3Apage%3Ad_flagship3_my_premium%3Bg3vju6WuSpu9dEJuEDnMug%3D%3D" /></a>
 
-  <a href="#" alt="WhatsApp">
+  <a href="https://api.whatsapp.com/send?phone=5584994633769" alt="WhatsApp">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=5584994633769"/></a>
   
-  <a href="#" alt="Instagram">
+  <a href="https://www.instagram.com/matheus_alvesdg" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/matheus_alvesdg/"/></a>
 </p>  
 
