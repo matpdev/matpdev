@@ -25,7 +25,6 @@ Me chamo Matheus, sou Designer Gráfico e Desenvolvedor Front-end, Trabalho atua
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <a href="https://app.daily.dev/Matpdev"><img src="https://api.daily.dev/devcards/82cc0c55a2cb4ae4830eaf37ddd9aa05.png?r=83r" width="400" alt="Matheus Alves's Dev Card"/></a>
 </p> 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=matpdev&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats) 
