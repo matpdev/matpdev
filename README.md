@@ -1,7 +1,7 @@
 # Eae, bão?
-Me chamo Matheus, sou Designer Gráfico, Trabalho com social media preparando artes para clientes offline e online, estou entrando na área como __Desenvolvedor Front-end Júnior__.
+Me chamo Matheus, sou Designer Gráfico e Desenvolvedor Front-end, Trabalho atualmente como Front-end na empresa [Cupcode](https://www.cupcode.com.br/).
 
-🎨 Tenho um __projeto__ que fiz para a gráfico que trabalho, um site informacional apenas para mostrar alguns projetos concluídos, criado com bootstrap e javascript, alguns plugins jquery, ele se encontra nesse link: [Maxmídia - Comunicação Visual](http://maxmidia.ind.br/)
+🎨 Tenho um __projeto__ que fiz para a gráfico que trabalho, um site informacional apenas para mostrar alguns projetos concluídos, criado com bootstrap e javascript, alguns plugins jquery, ele se encontra nesse link: [Maxmídia - Comunicação Visual](http://maxmidia.ind.br/).
 
 ### Bora conversar um pouco?
 <p align="left">
@@ -25,9 +25,8 @@ Me chamo Matheus, sou Designer Gráfico, Trabalho com social media preparando ar
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <a href="https://app.daily.dev/Matpdev"><img src="https://api.daily.dev/devcards/82cc0c55a2cb4ae4830eaf37ddd9aa05.png?r=83r" width="400" alt="Matheus Alves's Dev Card"/></a>
 </p> 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=matpdev&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats) 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matpdev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)-->
-
-<a href="https://app.daily.dev/Matpdev"><img src="https://api.daily.dev/devcards/82cc0c55a2cb4ae4830eaf37ddd9aa05.png?r=83r" width="400" alt="Matheus Alves's Dev Card"/></a>
