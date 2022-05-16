@@ -1,7 +1,5 @@
 # Eae, bão?
-Me chamo Matheus, sou Designer Gráfico e Desenvolvedor Front-end, Trabalho atualmente como Front-end na empresa [Cupcode](https://www.cupcode.com.br/).
-
-🎨 Tenho um __projeto__ que fiz para a gráfico que trabalho, um site informacional apenas para mostrar alguns projetos concluídos, criado com bootstrap e javascript, alguns plugins jquery, ele se encontra nesse link: [Maxmídia - Comunicação Visual](http://maxmidia.ind.br/).
+Me chamo Matheus, sou Designer Gráfico e Desenvolvedor Front-end, Trabalho atualmente como Front-end;
 
 ### Bora conversar um pouco?
 <p align="left">
