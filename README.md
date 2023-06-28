@@ -1,5 +1,5 @@
 # Eae, bão?
-Me chamo Matheus, sou Designer Gráfico e Desenvolvedor Front-end, Trabalho atualmente como Front-end;
+Me chamo Matheus, sou Designer Gráfico e Desenvolvedor FullStack, Trabalho atualmente como FullStack;
 
 ### Bora conversar um pouco?
 <p align="left">
