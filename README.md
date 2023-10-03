@@ -1,5 +1,8 @@
-# Eae, bão?
-Me chamo Matheus, sou Designer Gráfico e Desenvolvedor FullStack, Trabalho atualmente como FullStack;
+# Eae, tudo bão?
+Me chamo Matheus, sou apenas um Desenvolvedor FullStack com uma paixão pelo mundo da tecnologia e design. 
+
+Com experiência em empresas de tecnologia e agências de marketing digital, adquiri habilidades sólidas em desenvolvimento mobile, web e design gráfico.
+Minhas competências incluem o uso de Flutter, React, NextJS, NodeJS, Express, MySQL e AWS EC2 para criar aplicativos móveis e web de alta qualidade.
 
 ### Bora conversar um pouco?
 <p align="left">
