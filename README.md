@@ -1,8 +1,7 @@
 # Eae, tudo bão?
-Me chamo Matheus, sou apenas um Desenvolvedor FullStack com uma paixão pelo mundo da tecnologia e design. 
+I am a Front-end Developer passionate about technology and design, with experience at Pinó and Cupcode - Digital Marketing Agency.
 
-Com experiência em empresas de tecnologia e agências de marketing digital, adquiri habilidades sólidas em desenvolvimento mobile, web e design gráfico.
-Minhas competências incluem o uso de Flutter, React, NextJS, NodeJS, Express, MySQL e AWS EC2 para criar aplicativos móveis e web de alta qualidade.
+• Skills in Flutter, React, NextJS, NodeJS, Express, MySQL and AWS EC2.
 
 ### Bora conversar um pouco?
 <p align="left">
