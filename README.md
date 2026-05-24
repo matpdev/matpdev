@@ -23,7 +23,6 @@ Atualmente atuo como **Software Developer na Monaco.gg**, trabalhando em produto
 ## Projetos em destaque
 
 - [cpp-gen](https://github.com/matpdev/cpp-gen) — CLI para scaffolding de projetos C++
-- [detmag1](https://github.com/matpdev/detmag1) — Aplicação desktop C++/QML com comunicação serial
 - [fps-vulkan](https://github.com/matpdev/fps-vulkan) — FPS com Vulkan 1.3
 - [resonance](https://github.com/matpdev/resonance) — HTTP client multiplataforma
 
