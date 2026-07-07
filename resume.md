@@ -1,177 +1,81 @@
-# Matheus Alves
-**Software Developer**
+# Matheus Nunes Pereira
+**Systems & Backend Engineer**
 
-📧 matheus2ep@gmail.com
+📧 matheus2ep@gmail.com | 🌍 Macaíba, RN, Brazil (Open to Relocation)
 🔗 [linkedin.com/in/matheus-alves-dev](https://www.linkedin.com/in/matheus-alves-dev/)
 🐙 [github.com/matpdev](https://github.com/matpdev)
 
 ---
 
-## Sobre
+## About Me
 
-Desenvolvedor de software cursando Ciência da Computação com sólida experiência em C++ moderno, desenvolvimento de jogos, gráficos em tempo real com Vulkan e OpenGL, desenvolvimento mobile com Flutter e Kotlin, e backends em C#, Go e Node.js. Experiência profissional comprovada em ambientes de produção, com histórico de resolução de bugs críticos, implementação de sistemas de logging e otimização de performance. Comprometido com código limpo, arquitetura bem definida e ferramentas que aceleram o desenvolvimento.
-
----
-
-## Formação
-
-**Ciência da Computação** — *Cursando 4º Semestre*
+High-performance Systems and Backend Engineer with extensive experience developing low-level, high-throughput, and concurrent applications using **C++, Rust, Go, and C# (.NET)**. Proven track record of architecting production-ready software, managing high-concurrency systems, processing real-time telemetry data over custom **TCP/UDP protocols**, and writing thread-safe multithreaded pipelines. Expert in Linux environments, graphics rendering (Vulkan/OpenGL), and bridging the gap between embedded hardware (STM32/ESP32) and scalable cloud infrastructures.
 
 ---
 
-## Idiomas
+## Technical Skills
 
-- **Português** — Nativo
-- **Inglês** — Avançado Profissional
+### Core Languages
+`C++ (C++20/23)` `Rust` `Go` `C# (.NET)` `TypeScript` `Python` `Kotlin` `Dart` `SQL`
 
----
+### Systems & Graphics Engineering
+`Linux Systems` `Vulkan 1.3 (VMA, vk-bootstrap)` `OpenGL` `GLSL` `Process Isolation` `Multithreading` `POSIX Threads`
 
-## Habilidades Técnicas
-
-### Linguagens
-`C++ (C++20/23)` `Go` `C#` `Dart` `Kotlin` `Swift` `TypeScript` `JavaScript` `QML` `Python` `Ruby`
-
-### Gráficos & Baixo Nível
-`Vulkan 1.3` `OpenGL` `GLSL` `SPIR-V` `VMA` `vk-bootstrap` `SDL2`
-
-### Frameworks & Bibliotecas
-`Qt / QML` `ASP.NET Core` `Flutter` `Next.js` `Svelte` `Node.js` `Dio`
-
-### Backend & Banco de Dados
-`Go (net/http)` `ASP.NET Core` `MongoDB` `PostgreSQL`
-
-### Mobile
-`Flutter (Android/iOS)` `Kotlin (Android nativo)` `Swift (iOS/macOS)`
-
-### Build & Ferramentas
-`CMake (3.20+)` `vcpkg` `FetchContent` `Clangd LSP` `Clang-Format` `AddressSanitizer` `Homebrew`
-
-### DevOps & Infra
-`AWS ALB` `Docker` `GitHub Actions` `HTTPS/Redirects`
-
-### Embedded & Protocolos
-`Bluetooth / ESP32` `Serial / UART` `TCP / Socket bridging`
+### Infrastructure, Network & Embedded
+`TCP/UDP Sockets` `WebRTC` `UART/Serial` `Docker` `AWS (ALB, EC2)` `PostgreSQL` `MongoDB` `Redis` `CMake` `CI/CD (GitHub Actions)`
 
 ---
 
-## Experiência Profissional
+## Professional Experience
 
-### Software Developer — **Monaco.gg** *(Remoto)*
+### Systems & Software Engineer — Contract / Remote
+*Production Projects & Systems Deployment (2025 - Present)*
+- Developed and deployed **4 production-grade systems** focused on low-level optimization, C++ memory integrity, and real-time **TCP/UDP multi-threaded communication**.
+- Engineered high-availability backend solutions using **Rust and Flutter (Rust Bridge)**, implementing thread-safe parallel processing, custom byte manipulation, and high-performance PSQL database layers.
+- Architected a mission-critical traffic lane management system running on **Windows 7 Embedded** for highly congested avenues, ensuring strict reliability, zero-latency packet handling, and embedded device communication via **STM32, ESP32, and Arduino**.
+- Created **Runking**, a real-time athletic tracking platform utilizing **WebRTC over UDP** acting as a long-distance digital radio, streaming instant position telemetry and managing concurrent medical symptom tracking during live marathons.
 
-> Repositórios: `monaco-gg/poseidon-gameroom` · `monaco-gg/vivo-embed-gameroom`
-
-- Desenvolvimento de gameroom web de alta performance com múltiplos mini-games (Runner, ShootEmUp, StackJump, Guess, Magus, Touch)
-- Implementação de sistema de logging client-side com pipeline estruturado e schema de banco de dados (`clientLogger`)
-- Resolução de bugs críticos de produção: HTTPS redirect atrás de AWS ALB via `X-Forwarded-Proto`, erros de `AudioBufferSourceNode` em Android WebView e sessões BLOCKED prematuras
-- Integração de sistema de `gameInstanceToken` em múltiplas telas de jogo
-- Desenvolvimento de modal de erro de anúncio com mapeamento de mensagens de API, geração de códigos de suporte copiáveis e tratamento de falhas de reward
-- Configuração de `readPreference: primaryPreferred` no MongoDB para otimização de leitura primária
-- **Stack:** TypeScript, Next.js, Node.js, MongoDB, AWS
-
----
-
-## Projetos
-
-### [cpp-gen](https://github.com/matpdev/cpp-gen) — CLI Tool para scaffolding de projetos C++
-> *A modern CLI tool written in Go that scaffolds fully-configured C++ projects in seconds*
-
-- Gera projetos C++ com estrutura CMake hierárquica (3.20+) em segundos via CLI interativa (TUI)
-- Integra gerenciadores de pacotes (vcpkg / FetchContent) e configura ambientes de IDE (VS Code, CLion, Neovim)
-- Wires up Clangd LSP, Clang-Format, AddressSanitizer e Git automaticamente
-- Suporte a templates especializados (incluindo template Vulkan com shaders, vklib e vcpkg)
-- Disponível via **Homebrew** através do tap [`matpdev/homebrew-tap`](https://github.com/matpdev/homebrew-tap)
-- **Go**
+### Software Developer — Monaco.gg (Remote)
+*Frontend & Infrastructure Optimization*
+- Engineered a high-performance web-based game room architecture handling concurrent player instances across custom-built game titles (including *Guess* and *Runner*).
+- Designed and built a highly efficient client-side structured logging pipeline (`clientLogger`) integrated with optimized database storage schemas.
+- Resolved critical production bottlenecks, including AWS ALB proxying for HTTPS redirects (`X-Forwarded-Proto`), cross-origin WebView audio memory leaks (`AudioBufferSourceNode`), and premature session locking.
+- Optimized primary database read workflows by implementing `readPreference: primaryPreferred` in high-throughput MongoDB clusters.
 
 ---
 
-### [detmag1](https://github.com/matpdev/detmag1) — Aplicação Desktop Qt/QML com comunicação Serial
-- Interface desktop C++/QML com injeção de dependência via `ServiceContainer` centralizado
-- Comunicação Serial/UART com bridge para TCP/Socket e modo de configuração de dispositivo
-- Diagnósticos em tempo real com `DiagnosticStats`, gráficos via QtCharts e logging estruturado
-- Build com CMake + vcpkg e presets configurados para compilação paralela
-- **C++, QML, CMake**
+## Key Projects
+
+### Core Engine & Architecture: 0xDEADC0DE
+- Designed and implemented a cyberpunk-themed, text-based RPG infrastructure built completely from scratch using **C++ and OpenGL**.
+- Developed custom rendering pipelines and terminal text animation matrices, showcasing strong command over memory layouts, graphics context initialization, and real-time frame budget constraints.
+
+### Personalized Workspace Ecosystem: Hugin & Caos
+- Architected a bespoke, low-overhead browser homepage system designed for ultra-low latency and minimal resource consumption.
+- Developed **Hugin** (a high-performance Go-based backend handling API routes and telemetry) and **Caos** (a streamlined Svelte 5 frontend ecosystem).
+
+### Lumi (Energy Gamification & OCR Infrastructure)
+- Authored the technical specifications and core architecture for a cross-platform energy-efficiency platform.
+- Engineered high-performance ledger backends using **C# (.NET)** integrated with Flutter frontends and asynchronous OCR parsing queues.
+
+### cpp-gen — CLI Tool for High-Performance C++ Scaffolding
+- Built a native CLI/TUI automation utility in **Go** that builds enterprise-grade CMake (3.20+) project hierarchies in seconds.
+- Automatically wires up advanced static analysis and developer tooling: Clangd LSP, Clang-Format, AddressSanitizer, and custom Vulkan/vcpkg templates. Officially distributed via a custom **Homebrew Tap**.
+
+### fps-vulkan & vklib — Custom Vulkan 1.3 Engine
+- Developed an experimental FPS engine using pure **C++ and Vulkan 1.3** utilizing dynamic rendering, Vulkan Memory Allocator (VMA), and SDL2.
+- Created `vklib`, an RAII-compliant wrapper library for descriptor management, layout transitions, staging buffers, and anisotropic texture samplers.
 
 ---
 
-### [fps-vulkan](https://github.com/matpdev/fps-vulkan) — FPS com Vulkan 1.3
-> *FPS game built with Vulkan 1.3, using vk-bootstrap, VMA, SDL2 and dynamic rendering*
+## Education
 
-- Engine FPS desenvolvido do zero com Vulkan 1.3, dynamic rendering, VMA e SDL2
-- **C++, Vulkan, CMake**
-
----
-
-### [vulkan-template](https://github.com/matpdev/vulkan-template) / [Vulkan-first-hexagon](https://github.com/matpdev/Vulkan-first-hexagon) — Estudos Vulkan
-- Biblioteca wrapper RAII para Vulkan (`vklib`) com helpers de engine, memória, pipeline, descritores e shader loader
-- Uniform Buffer Objects (UBO) com transformações MVP (model/view/proj) e animação por frame
-- Carregamento de texturas via `stb_image` com staging buffer, transição de layout e sampler com anisotropia
-- Renderização de hexágono indexada com `vkCmdDrawIndexed`
-- **C++, Vulkan 1.3, GLSL/SPIR-V**
+**B.S. in Computer Science / Computer Engineering**
+*Universidade Cruzeiro do Sul / Estácio*
 
 ---
 
-### [0xDEADC0DE](https://github.com/matpdev/0xDEADC0DE) — RPG Text-Based com OpenGL
-> *A modern text-based RPG with stunning OpenGL-powered text animations*
+## Languages
 
-- RPG de linha de comando com efeitos visuais de texto renderizados via OpenGL
-- **C++, OpenGL**
-
----
-
-### [resonance](https://github.com/matpdev/resonance) — HTTP Client multiplataforma
-> *A high-performance, cross-platform HTTP client and request builder for developers*
-
-- Alternativa ao Postman, cross-platform, focada em performance e experiência do desenvolvedor
-- **Dart, Flutter, Dio**
-
----
-
-### [TechWire](https://github.com/matpdev/TechWire) — RSS Reader nativo para macOS
-> *Lightweight, high-performance RSS reader for macOS built natively in Swift*
-
-- UI minimalista com sincronização rápida, voltado para desenvolvedores e entusiastas de tecnologia
-- **Swift, macOS**
-
----
-
-### [Tasknap](https://github.com/matpdev/Tasknap-backend) — App de tarefas Full-Stack
-- Backend REST em **C# / ASP.NET Core** com app Android nativo em **Kotlin**
-
----
-
-### Aplicativos Mobile (Flutter/Dart)
-| Projeto | Descrição |
-|---|---|
-| [carlog_app](https://github.com/matpdev/carlog_app) | App de registro de veículos |
-| [Runking-App](https://github.com/matpdev/Runking-App) | App de ranking/corrida |
-| [Tremor-Checker](https://github.com/matpdev/Tremor-Checker) | App de checagem de tremores |
-
----
-
-### Games em C++
-| Projeto | Descrição |
-|---|---|
-| [cpp-game-engine](https://github.com/matpdev/cpp-game-engine) | Motor de jogos próprio em C++ |
-| [brick-game](https://github.com/matpdev/brick-game) | Jogo estilo Breakout |
-| [kart-game](https://github.com/matpdev/kart-game) | Jogo de kart |
-| [survive-game](https://github.com/matpdev/survive-game) | Jogo de sobrevivência |
-| [the-impale-game](https://github.com/matpdev/the-impale-game) | Jogo de ação |
-| [kill-them](https://github.com/matpdev/kill-them) | Jogo de ação top-down |
-| [wordle-game](https://github.com/matpdev/wordle-game) | Clone do Wordle |
-| [doom-fire-algorithm-cpp](https://github.com/matpdev/doom-fire-algorithm-cpp) | Algoritmo de fogo do Doom |
-| [a-star-cpp](https://github.com/matpdev/a-star-cpp) | Pathfinding A* em C++ |
-| [pixel-trail-cpp](https://github.com/matpdev/pixel-trail-cpp) | Efeito visual de rastro de pixels |
-
----
-
-### Outros Projetos
-- [bluetooth-esp32](https://github.com/matpdev/bluetooth-esp32) — Comunicação Bluetooth com ESP32 (**C++ embedded**)
-- [StrafficSimulator](https://github.com/matpdev/StrafficSimulator) — Simulador de tráfego (**C++**)
-- [Caos-frontend](https://github.com/matpdev/Caos-frontend) — Frontend em **Svelte**
-- [Hugin-backend](https://github.com/matpdev/Hugin-backend) — Backend em **Go**
-- [lumi-backend](https://github.com/matpdev/lumi-backend) — Backend em **C#**
-- [cpp-starter-project](https://github.com/matpdev/cpp-starter-project) — Starter template C++ com CMake
-
----
-
-*Última atualização: Abril 2026*
+- **Portuguese** — Native
+- **English** — Full Professional Proficiency (Advanced Technical Context)
