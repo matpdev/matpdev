@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/bridges-header.svg" alt="Bridges Chiral Network Terminal — Matheus Nunes (@matpdev)" width="100%" />
+  <img src="./assets/bridges-header.svg?v=2" alt="Bridges Chiral Network Terminal — Matheus Nunes (@matpdev)" width="100%" />
 
   <br />
 
@@ -159,7 +159,7 @@ flowchart LR
 ## `// CUFF LINK TELEMETRY & BRIDGE LINK`
 
 <div align="center">
-  <img src="./assets/porter-telemetry.svg" alt="Bridges Porter Telemetry" width="100%" />
+  <img src="./assets/porter-telemetry.svg?v=2" alt="Bridges Porter Telemetry" width="100%" />
   <br /><br />
   <sub>
     <code>"Tomorrow is in your hands. Keep on keeping on."</code> — Synced daily via <a href="./.github/workflows/update-telemetry.yml">GitHub Actions</a> · Field logs at <a href="https://sidequestlab.dev">sidequestlab.dev</a>
