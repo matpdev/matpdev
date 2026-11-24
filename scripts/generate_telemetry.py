@@ -171,7 +171,7 @@ def render_svg(data: dict[str, object]) -> str:
 
   <!-- Header -->
   <text x="26" y="28" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.8">
-    CUFF LINK TELEMETRY // PORTER GRADE: S-RANK
+    CUFF LINK TELEMETRY // PORTER GRADE: LEGEND OF LEGENDS
   </text>
   <text x="874" y="28" text-anchor="end" fill="#6E7681" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">
     SYNCED: {now_utc}
