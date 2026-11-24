@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 132" width="900" height="132" role="img" aria-label="Bridges Strand Contracts Timeline">
+  <defs>
+    <linearGradient id="stBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080B0F"/>
+      <stop offset="50%" stop-color="#0C1219"/>
+      <stop offset="100%" stop-color="#080B0F"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="12,4 888,4 896,12 896,120 888,128 12,128 4,120 4,12" fill="url(#stBg)" stroke="#1E2D3D" stroke-width="1.2"/>
+
+  <!-- Main Strand Line -->
+  <line x1="90" y1="54" x2="810" y2="54" stroke="#1E2D3D" stroke-width="2.5"/>
+  <line x1="90" y1="54" x2="810" y2="54" stroke="#00D8FF" stroke-width="2" stroke-dasharray="10 8" opacity="0.85">
+    <animate attributeName="stroke-dashoffset" from="36" to="0" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Node 1: Pino -->
+  <g transform="translate(115, 54)">
+    <circle cx="0" cy="0" r="9" fill="#0B0E11" stroke="#8B949E" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3.5" fill="#8B949E"/>
+    <text x="0" y="-20" text-anchor="middle" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">2022 — 2025</text>
+    <text x="0" y="28" text-anchor="middle" fill="#E6EDF3" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Pinó</text>
+    <text x="0" y="44" text-anchor="middle" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">WEB &amp; MOBILE</text>
+  </g>
+
+  <!-- Node 2: Runking -->
+  <g transform="translate(335, 54)">
+    <circle cx="0" cy="0" r="9" fill="#0B0E11" stroke="#00D8FF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3.5" fill="#00D8FF"/>
+    <text x="0" y="-20" text-anchor="middle" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">2023 — 2025</text>
+    <text x="0" y="28" text-anchor="middle" fill="#E6EDF3" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Runking</text>
+    <text x="0" y="44" text-anchor="middle" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">OFFLINE SYNC · WEBRTC</text>
+  </g>
+
+  <!-- Node 3: Techmobi -->
+  <g transform="translate(565, 54)">
+    <circle cx="0" cy="0" r="10" fill="#0B0E11" stroke="#D4AF37" stroke-width="2.2"/>
+    <circle cx="0" cy="0" r="4" fill="#D4AF37">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-20" text-anchor="middle" fill="#D4AF37" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700">2024 — ACTIVE</text>
+    <text x="0" y="28" text-anchor="middle" fill="#F0F6FC" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Techmobi</text>
+    <text x="0" y="44" text-anchor="middle" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">C++20 · RUST · .NET 8</text>
+  </g>
+
+  <!-- Node 4: Monaco.gg -->
+  <g transform="translate(785, 54)">
+    <circle cx="0" cy="0" r="11" fill="#0B0E11" stroke="#00D8FF" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="4.5" fill="#00D8FF">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-20" text-anchor="middle" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700">2025 — ACTIVE</text>
+    <text x="0" y="28" text-anchor="middle" fill="#F0F6FC" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Monaco.gg</text>
+    <text x="0" y="44" text-anchor="middle" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">GO · AWS · FRAUD ENGINE</text>
+  </g>
+</svg>

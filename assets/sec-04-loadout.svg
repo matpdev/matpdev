@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="900" height="44" role="img" aria-label="SEC-04 PCC Fabrication Loadout">
+  <polygon points="10,2 890,2 898,10 898,34 890,42 10,42 2,34 2,10" fill="#0B0F14" stroke="#1E2D3D" stroke-width="1.2"/>
+  <polyline points="2,16 2,10 10,2 24,2" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <polyline points="876,42 890,42 898,34 898,28" fill="none" stroke="#00D8FF" stroke-width="2"/>
+  <polygon points="24,16 30,22 24,28 18,22" fill="#D4AF37"/>
+  <text x="40" y="26" fill="#F0F6FC" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.6">
+    SEC-04 // <tspan fill="#D4AF37">PCC FABRICATION LOADOUT — TECH STACK</tspan>
+  </text>
+  <text x="878" y="26" text-anchor="end" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" letter-spacing="1.2">
+    CHIRAL PRINTER READY
+  </text>
+</svg>

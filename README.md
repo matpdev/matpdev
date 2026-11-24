@@ -21,71 +21,87 @@
 
 I deliver **low-level, high-throughput, and resilient software** across rugged terrain — from static PS2 recompilation and **Vulkan / C++23** engines to **Rust / Go / .NET** distributed backends, embedded **TCP/UDP** telemetry pipelines, and local-first **Flutter / SwiftUI / Kotlin** apps.
 
-<div align="center">
-  <img src="./assets/chiral-divider.svg" alt="Chiral Divider" width="100%" />
-</div>
-
-## `// KNOT NETWORK TOPOLOGY`
-
-```mermaid
-flowchart LR
-    HW["KNOT-01 · HARDWARE\nSTM32 · ESP32 · MIPS · Serial"] -->|"Chiral Bridge: TCP/UDP · FFI"| SYS["KNOT-02 · SYSTEMS & GPU\nC++23 · Rust · Vulkan · Boost.ASIO"]
-    SYS -->|"Chiral Bridge: Queues · gRPC"| CLOUD["KNOT-03 · CLOUD & DATA\nGo · .NET 8 · AWS SQS/ECS · MongoDB · PG"]
-    CLOUD -->|"Chiral Bridge: APIs · Sync"| CLIENT["KNOT-04 · CLIENT & TOOLING\nFlutter · SwiftUI · Kotlin · Next.js · LSP/CLI"]
-
-    style HW fill:#0D1218,stroke:#D4AF37,color:#E6EDF3,stroke-width:1.5px
-    style SYS fill:#0D1218,stroke:#00D8FF,color:#E6EDF3,stroke-width:1.5px
-    style CLOUD fill:#0D1218,stroke:#00D8FF,color:#E6EDF3,stroke-width:1.5px
-    style CLIENT fill:#0D1218,stroke:#D4AF37,color:#E6EDF3,stroke-width:1.5px
-```
+<br />
 
 <div align="center">
-  <img src="./assets/chiral-divider.svg" alt="Chiral Divider" width="100%" />
+  <img src="./assets/sec-01-network.svg" alt="SEC-01 Knot Network Topology" width="100%" />
+  <br /><br />
+  <img src="./assets/knot-network.svg" alt="Bridges UCA Knot Network Topology" width="100%" />
 </div>
 
-## `// STANDARD ORDERS — PERSONAL & OPEN SOURCE`
+<br />
 
-<table>
+<div align="center">
+  <img src="./assets/sec-02-orders.svg" alt="SEC-02 Standard Orders" width="100%" />
+</div>
+
+<br />
+
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><code>ORDER #001 · [RECOMP]</code> <a href="https://github.com/matpdev/SaintSeiyaRecomp">SaintSeiyaRecomp</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23001-RECOMP-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 001" />
+        <img src="https://img.shields.io/badge/EVALUATION-RANK_S-0B0E11?style=flat-square&labelColor=0B0E11&color=00D8FF" alt="Rank S" />
+      </p>
+      <h3><a href="https://github.com/matpdev/SaintSeiyaRecomp">SaintSeiyaRecomp</a></h3>
       <p><strong>Cargo:</strong> Native PC port &amp; static recompilation of <em>Saint Seiya: The Hades</em> (PS2)</p>
       <p>Translates all <strong>13,855 MIPS R5900 functions</strong> to native C for Linux &amp; Windows, paired with a custom <strong>Vulkan</strong> renderer and an emulated <strong>SPU2</strong> running the original audio driver.</p>
-      <p><strong>Loadout:</strong> <code>C</code> · <code>Python</code> · <code>Vulkan</code> · <code>MIPS</code> · <em>Rank: S</em></p>
+      <p><code>C</code> · <code>Python</code> · <code>Vulkan</code> · <code>MIPS</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>ORDER #002 · [AI-LAW]</code> <a href="https://github.com/matpdev/tinstar">Tinstar</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23002-AI--LAW-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 002" />
+        <img src="https://img.shields.io/badge/EVALUATION-RANK_S-0B0E11?style=flat-square&labelColor=0B0E11&color=00D8FF" alt="Rank S" />
+      </p>
+      <h3><a href="https://github.com/matpdev/tinstar">Tinstar</a></h3>
       <p><strong>Cargo:</strong> The law in your repo — deterministic checks from plain-language rules</p>
       <p>Compiles rules written in <code>AGENTS.md</code> / <code>CLAUDE.md</code> into fast checks that run <strong>without an LLM</strong> in the terminal, Zed/editor LSP, CI, and AI agent loops.</p>
-      <p><strong>Loadout:</strong> <code>Rust</code> · <code>ast-grep</code> · <code>LSP</code> · <code>MCP</code> · <em>Rank: S</em></p>
+      <p><code>Rust</code> · <code>ast-grep</code> · <code>LSP</code> · <code>MCP</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>ORDER #003 · [PCC-CLI]</code> <a href="https://github.com/matpdev/cpp-gen">cpp-gen</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23003-PCC--CLI-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 003" />
+        <img src="https://img.shields.io/badge/EVALUATION-RANK_S-0B0E11?style=flat-square&labelColor=0B0E11&color=00D8FF" alt="Rank S" />
+      </p>
+      <h3><a href="https://github.com/matpdev/cpp-gen">cpp-gen</a></h3>
       <p><strong>Cargo:</strong> Modern C++ project scaffolder distributed via Homebrew &amp; AUR</p>
       <p>Native Go CLI/TUI that fabricates CMake 3.20+ presets, <code>vcpkg</code> / <code>FetchContent</code>, Clangd LSP, AddressSanitizer, and Vulkan/IDE templates in seconds.</p>
-      <p><strong>Loadout:</strong> <code>Go</code> · <code>Cobra</code> · <code>CMake</code> · <code>Clangd</code> · <em>Rank: S</em></p>
+      <p><code>Go</code> · <code>Cobra</code> · <code>CMake</code> · <code>Clangd</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>ORDER #004 · [PHYSICS]</code> <a href="https://codeberg.org/l0gic_br4in/parking-simulator">Car Physics &amp; Parking Simulator</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23004-PHYSICS-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 004" />
+        <img src="https://img.shields.io/badge/EVALUATION-RANK_S-0B0E11?style=flat-square&labelColor=0B0E11&color=00D8FF" alt="Rank S" />
+      </p>
+      <h3><a href="https://codeberg.org/l0gic_br4in/parking-simulator">Car Physics &amp; Parking Simulator</a></h3>
       <p><strong>Cargo:</strong> Manual transmission &amp; tire dynamics simulation from scratch</p>
       <p>Models an engine torque curve, slipping clutch, 5-speed gearbox + reverse, load transfer, and <strong>Pacejka tire physics</strong> with real-time telemetry.</p>
-      <p><strong>Loadout:</strong> <code>C++23</code> · <code>raylib</code> · <code>Dear ImGui</code> · <code>CMake</code> · <em>Rank: S</em></p>
+      <p><code>C++23</code> · <code>raylib</code> · <code>Dear ImGui</code> · <code>CMake</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>ORDER #005 · [AIOPS]</code> SentinelAI</h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23005-AIOPS-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 005" />
+        <img src="https://img.shields.io/badge/STATUS-DELIVERED-0B0E11?style=flat-square&labelColor=0B0E11&color=1E2D3D" alt="Delivered" />
+      </p>
+      <h3>SentinelAI</h3>
       <p><strong>Cargo:</strong> Event-driven AIOps &amp; automated incident diagnosis copilot</p>
       <p>Ingests production telemetry through <strong>AWS SQS + S3</strong> and <strong>PostgreSQL/Dapper</strong>, with PII sanitization, <code>Microsoft.Extensions.AI</code>, OpenTelemetry, Grafana, and Testcontainers + BDD.</p>
-      <p><strong>Loadout:</strong> <code>.NET</code> · <code>AWS SQS/S3</code> · <code>PostgreSQL</code> · <code>OpenTelemetry</code></p>
+      <p><code>.NET</code> · <code>AWS SQS/S3</code> · <code>PostgreSQL</code> · <code>OpenTelemetry</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>ORDER #006 · [PROTOCOL]</code> Foco (Mac + Guard)</h3>
+      <p>
+        <img src="https://img.shields.io/badge/ORDER_%23006-PROTOCOL-0B0E11?style=flat-square&labelColor=0B0E11&color=D4AF37" alt="Order 006" />
+        <img src="https://img.shields.io/badge/STATUS-DELIVERED-0B0E11?style=flat-square&labelColor=0B0E11&color=1E2D3D" alt="Delivered" />
+      </p>
+      <h3>Foco (Mac + Guard)</h3>
       <p><strong>Cargo:</strong> Cross-device focus ecosystem without root or lock-in</p>
       <p>A <strong>SwiftUI</strong> macOS study/roadmap app paired with a <strong>Kotlin + Shizuku</strong> Android blocker communicating over a custom local-network protocol signed with <strong>HMAC + Bonjour</strong>.</p>
-      <p><strong>Loadout:</strong> <code>SwiftUI</code> · <code>Kotlin</code> · <code>Shizuku</code> · <code>HMAC</code></p>
+      <p><code>SwiftUI</code> · <code>Kotlin</code> · <code>Shizuku</code> · <code>HMAC</code></p>
     </td>
   </tr>
 </table>
@@ -93,21 +109,21 @@ flowchart LR
 <details>
   <summary><strong><code>[+] OPEN PRIVATE ROOM ARCHIVE (SECONDARY DELIVERIES &amp; LABS)</code></strong></summary>
   <br />
-  <table>
+  <table width="100%">
     <tr>
-      <th align="left">Order</th>
-      <th align="left">Mission Scope</th>
-      <th align="left">Loadout</th>
+      <th align="left" width="22%">Order</th>
+      <th align="left" width="56%">Mission Scope</th>
+      <th align="left" width="22%">Loadout</th>
     </tr>
     <tr>
       <td><strong>docs-lsp</strong></td>
       <td>Offline hover Language Server for Vulkan docs, cppreference, man pages, and GLSL qualifiers running alongside <code>clangd</code>.</td>
-      <td><code>LSP</code> · <code>Vulkan</code> · <code>C++</code> · <code>GLSL</code></td>
+      <td><code>LSP</code> · <code>Vulkan</code> · <code>GLSL</code></td>
     </tr>
     <tr>
       <td><strong>El Recrutador</strong></td>
       <td>Local-first job triage &amp; 1-page ATS CV generator using embedded Typst, DeepSeek JSON mode, and SQLite.</td>
-      <td><code>Flutter</code> · <code>Rust FFI</code> · <code>Typst</code> · <code>SQLite</code></td>
+      <td><code>Flutter</code> · <code>Rust FFI</code> · <code>Typst</code></td>
     </tr>
     <tr>
       <td><strong>Conta Certa</strong></td>
@@ -122,43 +138,119 @@ flowchart LR
   </table>
 </details>
 
+<br />
+
 <div align="center">
-  <img src="./assets/chiral-divider.svg" alt="Chiral Divider" width="100%" />
+  <img src="./assets/sec-03-contracts.svg" alt="SEC-03 Strand Contracts" width="100%" />
+  <br /><br />
+  <img src="./assets/strand-contracts.svg" alt="Bridges Strand Contracts Timeline" width="100%" />
 </div>
 
-## `// STRAND CONTRACTS — FIELD DEPLOYMENTS`
+<br />
 
-| Period | Knot / Partner | Role | Delivery Impact |
-| :--- | :--- | :--- | :--- |
-| **Aug 2025 — Present** | **Monaco.gg** | Software Engineer / Product Builder | Core backend &amp; real-time fraud detection for carrier-billed gaming platforms (Claro, Vivo, TIM); async **AWS SQS/SNS/ECS** queues and **MongoDB** replicas stable under traffic bursts (`Go`, `FastAPI`, `Next.js`, `SvelteKit`). |
-| **2024 — Present** | **Techmobi Tecnologia** | Software Engineer (Contract) | Eliminated race conditions in weigh-in-motion (WIM) sensor diagnostics (**Qt6/C++20**, **Boost.ASIO**) reaching **100% field stability**; modeled **40+ domain entities** in **.NET 8 DDD/CQRS**; built **Rust + Tokio + Flutter FFI** hardware simulators &amp; relays. |
-| **2023 — 2025** | **Runking** | Backend &amp; Mobile Engineer | Engineered an offline-first sync engine (**SQLite + Rust FFI**) and **WebRTC over UDP** telemetry streaming for **zero data loss** during live marathons. |
-| **Feb 2022 — Aug 2025** | **Pinó** | Full Stack / Frontend Engineer | Led frontend architecture for enterprise portals and high-traffic apps (`React`, `Next.js`, `Vue`, `React Native`, `Flutter`) backed by Node.js APIs on AWS. |
+<table width="100%">
+  <tr>
+    <th align="left" width="18%">Period</th>
+    <th align="left" width="18%">Knot / Partner</th>
+    <th align="left" width="22%">Role</th>
+    <th align="left" width="42%">Delivery Impact</th>
+  </tr>
+  <tr>
+    <td><strong>Aug 2025 — Present</strong></td>
+    <td><strong>Monaco.gg</strong></td>
+    <td>Software Engineer / Product Builder</td>
+    <td>Core backend &amp; real-time fraud detection for carrier-billed gaming platforms (Claro, Vivo, TIM); async <strong>AWS SQS/SNS/ECS</strong> queues and <strong>MongoDB</strong> replicas stable under traffic bursts (<code>Go</code>, <code>FastAPI</code>, <code>Next.js</code>, <code>SvelteKit</code>).</td>
+  </tr>
+  <tr>
+    <td><strong>2024 — Present</strong></td>
+    <td><strong>Techmobi Tecnologia</strong></td>
+    <td>Software Engineer (Contract)</td>
+    <td>Eliminated race conditions in weigh-in-motion (WIM) sensor diagnostics (<strong>Qt6/C++20</strong>, <strong>Boost.ASIO</strong>) reaching <strong>100% field stability</strong>; modeled <strong>40+ domain entities</strong> in <strong>.NET 8 DDD/CQRS</strong>; built <strong>Rust + Tokio + Flutter FFI</strong> hardware simulators &amp; relays.</td>
+  </tr>
+  <tr>
+    <td><strong>2023 — 2025</strong></td>
+    <td><strong>Runking</strong></td>
+    <td>Backend &amp; Mobile Engineer</td>
+    <td>Engineered an offline-first sync engine (<strong>SQLite + Rust FFI</strong>) and <strong>WebRTC over UDP</strong> telemetry streaming for <strong>zero data loss</strong> during live marathons.</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 2022 — Aug 2025</strong></td>
+    <td><strong>Pinó</strong></td>
+    <td>Full Stack / Frontend Engineer</td>
+    <td>Led frontend architecture for enterprise portals and high-traffic apps (<code>React</code>, <code>Next.js</code>, <code>Vue</code>, <code>React Native</code>, <code>Flutter</code>) backed by Node.js APIs on AWS.</td>
+  </tr>
+</table>
+
+<br />
 
 <div align="center">
-  <img src="./assets/chiral-divider.svg" alt="Chiral Divider" width="100%" />
+  <img src="./assets/sec-04-loadout.svg" alt="SEC-04 PCC Fabrication Loadout" width="100%" />
 </div>
 
-## `// PCC FABRICATION LOADOUT — TECH STACK`
+<br />
 
-<details open>
-  <summary><strong><code>[+] INSPECT CHIRAL PRINTER BLUEPRINTS</code></strong></summary>
-  <br />
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong><code>PCC-01 // CORE LANGUAGES</code></strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/C++_20/23-0B0E11?style=flat-square&logo=cplusplus&logoColor=00D8FF" alt="C++" />
+        <img src="https://img.shields.io/badge/Rust-0B0E11?style=flat-square&logo=rust&logoColor=D4AF37" alt="Rust" />
+        <img src="https://img.shields.io/badge/Go-0B0E11?style=flat-square&logo=go&logoColor=00D8FF" alt="Go" />
+        <img src="https://img.shields.io/badge/C%23_.NET_8-0B0E11?style=flat-square&logo=dotnet&logoColor=D4AF37" alt="C#" />
+        <img src="https://img.shields.io/badge/TypeScript-0B0E11?style=flat-square&logo=typescript&logoColor=00D8FF" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Python-0B0E11?style=flat-square&logo=python&logoColor=D4AF37" alt="Python" />
+        <img src="https://img.shields.io/badge/Kotlin-0B0E11?style=flat-square&logo=kotlin&logoColor=00D8FF" alt="Kotlin" />
+        <img src="https://img.shields.io/badge/Swift-0B0E11?style=flat-square&logo=swift&logoColor=D4AF37" alt="Swift" />
+        <img src="https://img.shields.io/badge/Dart-0B0E11?style=flat-square&logo=dart&logoColor=00D8FF" alt="Dart" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong><code>PCC-02 // SYSTEMS, GRAPHICS &amp; EMBEDDED</code></strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Linux_Systems-0B0E11?style=flat-square&logo=linux&logoColor=D4AF37" alt="Linux" />
+        <img src="https://img.shields.io/badge/Vulkan_1.3-0B0E11?style=flat-square&logo=vulkan&logoColor=00D8FF" alt="Vulkan" />
+        <img src="https://img.shields.io/badge/OpenGL-0B0E11?style=flat-square&logo=opengl&logoColor=D4AF37" alt="OpenGL" />
+        <img src="https://img.shields.io/badge/Qt6-0B0E11?style=flat-square&logo=qt&logoColor=00D8FF" alt="Qt6" />
+        <img src="https://img.shields.io/badge/Boost.ASIO-0B0E11?style=flat-square&logo=cplusplus&logoColor=D4AF37" alt="Boost.ASIO" />
+        <img src="https://img.shields.io/badge/TCP/UDP_WebRTC-0B0E11?style=flat-square&logo=webrtc&logoColor=00D8FF" alt="WebRTC" />
+        <img src="https://img.shields.io/badge/STM32_/_ESP32-0B0E11?style=flat-square&logo=espressif&logoColor=D4AF37" alt="ESP32" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong><code>PCC-03 // BACKEND, CLOUD &amp; DATA</code></strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/AWS_SQS_SNS_ECS-0B0E11?style=flat-square&logo=amazonwebservices&logoColor=D4AF37" alt="AWS" />
+        <img src="https://img.shields.io/badge/Docker-0B0E11?style=flat-square&logo=docker&logoColor=00D8FF" alt="Docker" />
+        <img src="https://img.shields.io/badge/PostgreSQL-0B0E11?style=flat-square&logo=postgresql&logoColor=00D8FF" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/MongoDB-0B0E11?style=flat-square&logo=mongodb&logoColor=D4AF37" alt="MongoDB" />
+        <img src="https://img.shields.io/badge/Redis-0B0E11?style=flat-square&logo=redis&logoColor=00D8FF" alt="Redis" />
+        <img src="https://img.shields.io/badge/SQLite-0B0E11?style=flat-square&logo=sqlite&logoColor=D4AF37" alt="SQLite" />
+        <img src="https://img.shields.io/badge/OpenTelemetry-0B0E11?style=flat-square&logo=opentelemetry&logoColor=00D8FF" alt="OpenTelemetry" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong><code>PCC-04 // MOBILE, WEB &amp; DEV TOOLING</code></strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter_FFI-0B0E11?style=flat-square&logo=flutter&logoColor=00D8FF" alt="Flutter" />
+        <img src="https://img.shields.io/badge/SwiftUI-0B0E11?style=flat-square&logo=swift&logoColor=D4AF37" alt="SwiftUI" />
+        <img src="https://img.shields.io/badge/Next.js-0B0E11?style=flat-square&logo=nextdotjs&logoColor=00D8FF" alt="Next.js" />
+        <img src="https://img.shields.io/badge/SvelteKit-0B0E11?style=flat-square&logo=svelte&logoColor=D4AF37" alt="SvelteKit" />
+        <img src="https://img.shields.io/badge/CMake-0B0E11?style=flat-square&logo=cmake&logoColor=00D8FF" alt="CMake" />
+        <img src="https://img.shields.io/badge/LSP_/_MCP-0B0E11?style=flat-square&logo=visualstudiocode&logoColor=D4AF37" alt="LSP/MCP" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-0B0E11?style=flat-square&logo=githubactions&logoColor=00D8FF" alt="GitHub Actions" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-  - **Core Languages**: `C++ (20/23)` · `Rust` · `Go` · `C# (.NET 8)` · `TypeScript` · `Python` · `Kotlin` · `Swift` · `Dart` · `SQL`
-  - **Systems, Graphics &amp; Embedded**: `Linux Systems` · `Vulkan 1.3 (VMA)` · `OpenGL` · `GLSL` · `Qt6` · `Boost.ASIO` · `POSIX Threads` · `TCP/UDP` · `WebRTC` · `STM32 / ESP32`
-  - **Backend, Cloud &amp; Data**: `AWS (SQS, SNS, ECS, S3, ALB)` · `Docker` · `PostgreSQL` · `MongoDB` · `Redis` · `SQLite` · `OpenTelemetry` · `Grafana`
-  - **Mobile, Web &amp; Tooling**: `Flutter (flutter_rust_bridge)` · `SwiftUI` · `Next.js` · `SvelteKit` · `CMake` · `LSP / MCP` · `GitHub Actions`
-
-</details>
+<br />
 
 <div align="center">
-  <img src="./assets/chiral-divider.svg" alt="Chiral Divider" width="100%" />
-</div>
-
-## `// CUFF LINK TELEMETRY & BRIDGE LINK`
-
-<div align="center">
+  <img src="./assets/sec-05-telemetry.svg" alt="SEC-05 Cuff Link Telemetry" width="100%" />
+  <br /><br />
   <img src="./assets/porter-telemetry.svg?v=2" alt="Bridges Porter Telemetry" width="100%" />
   <br /><br />
   <sub>
