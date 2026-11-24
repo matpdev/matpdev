@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 28" width="900" height="28" role="img" aria-label="Chiral Network Divider">
+  <defs>
+    <linearGradient id="divCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D8FF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00D8FF" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#00D8FF" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#00D8FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00D8FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="20" y1="14" x2="420" y2="14" stroke="url(#divCyan)" stroke-width="1.2"/>
+  <line x1="480" y1="14" x2="880" y2="14" stroke="url(#divCyan)" stroke-width="1.2"/>
+
+  <!-- Tick marks -->
+  <line x1="200" y1="10" x2="200" y2="18" stroke="#1E2D3D" stroke-width="1.2"/>
+  <line x1="700" y1="10" x2="700" y2="18" stroke="#1E2D3D" stroke-width="1.2"/>
+
+  <!-- Center Chiral Node -->
+  <polygon points="450,4 460,14 450,24 440,14" fill="#0B0E11" stroke="#00D8FF" stroke-width="1.4"/>
+  <circle cx="450" cy="14" r="3" fill="#D4AF37">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
