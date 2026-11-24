@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/bridges-header.svg" alt="Bridges Chiral Network Terminal — Matheus Alves (@matpdev)" width="100%" />
+  <img src="./assets/bridges-header.svg" alt="Bridges Chiral Network Terminal — Matheus Nunes (@matpdev)" width="100%" />
 
   <br />
 
@@ -15,7 +15,7 @@
 > INITIALIZING CUFF LINK OS v2.0...
 > SCANNING FOR TIMEFALL... [NOMINAL]
 > ODRADEK TERRAIN SCAN... [4 KNOTS CONNECTED]
-> PORTER: MATHEUS ALVES (@matpdev)  |  GRADE: LEGEND OF LEGENDS
+> PORTER: MATHEUS NUNES (@matpdev)  |  GRADE: LEGEND OF LEGENDS
 > MISSION: CONNECTING SILICON, CONCURRENT SYSTEMS & PRODUCTION CLOUD
 ```
 
