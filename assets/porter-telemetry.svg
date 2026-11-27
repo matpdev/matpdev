@@ -22,7 +22,7 @@
     CUFF LINK TELEMETRY // PORTER GRADE: LEGEND OF LEGENDS
   </text>
   <text x="874" y="28" text-anchor="end" fill="#6E7681" font-family="'JetBrains Mono', Consolas, monospace" font-size="10">
-    SYNCED: 2026-11-26 06:17 UTC
+    SYNCED: 2026-11-27 06:17 UTC
   </text>
   <line x1="24" y1="38" x2="876" y2="38" stroke="#1B2836" stroke-width="1"/>
 
@@ -40,7 +40,7 @@
 
     <rect x="276" y="0" width="136" height="68" fill="#0E141B" stroke="#1E2D3D" stroke-width="1"/>
     <text x="288" y="22" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" letter-spacing="1">CHIRAL SIGNALS</text>
-    <text x="288" y="50" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="24" font-weight="700">2083</text>
+    <text x="288" y="50" fill="#00D8FF" font-family="'JetBrains Mono', Consolas, monospace" font-size="24" font-weight="700">2099</text>
     <text x="366" y="50" fill="#8B949E" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5">/YR</text>
   </g>
 
